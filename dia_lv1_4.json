@@ -1,0 +1,43 @@
+{
+  "map_mission0": {
+    "Dialogue": "The desk has a filing cabinet. Maybe there is useful information there.",
+    "Name": "Open files",
+    "Description": "I pull open the filing cabinet. There are two separate tabs.",
+    "Child 1": "map_tab1",
+    "Child 2": "map_tab2",
+    "map_tab1": {
+      "Name": "STUFF",
+      "Description": "The tab is full of loose papers.",
+      "Child 1": "map_paper1",
+      "Child 2": "map_paper2",
+      "Child 3": "map_paper3",
+      "Child 4": "map_paper4",
+      "Child 5": "map_paper5",
+      "map_paper1": {
+        "Name": "Папірчик",
+        "Description": "Basic financing. Puff must have been designated as the accountant of the gang. Безкорисно."
+      },
+      "map_paper2": {
+        "Name": "Папірчик",
+        "Description": "A letter outlining Puff's frustration in the gang. Безкорисно."
+      },
+      "map_paper3": {
+        "Name": "Папірчик",
+        "Description": "Погано намальована гола вампірка. Безкорисно."
+      },
+      "map_paper4": {
+        "Name": "Папірчик",
+        "Important": 1,
+        "Description": " Labeled \"IMPORTANT PEOPLE.\" There are addresses scribbled across the top:##5314 21st and 4th #101 6th Street Under ##These must be the addresses of Zombie Kingz houses. Useful. "
+      },
+      "map_paper5": {
+        "Name": "Папірчик",
+        "Description": "Indistinguishable scribbles. Безкорисно."
+      }
+    },
+    "map_tab2": {
+      "Name": "MORE STUFF",
+      "Description": "You pull open the drawer, and inside is a pamphlet and an embossed coin."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "map_mission0": {
+    "Dialogue": "Ви відкрили сейф",
+    "Name": "Оглянути",
+    "Description": "Тут є кілька папірців.",
+    "Child 1": "map_tab1",
+    "Child 2": "map_tab2",
+    "Child 3": "map_tab3",
+    "map_tab1": {
+      "Name": "Нотатки",
+      "Description": "IMMOLATION WAS UNSUCCESSFUL. I AM STILL TEMUR. I WILL BECOME A REAPER AND LIVE FOREVER AND FIND WARMTH FROM THE FIRE JUST AS HE HAS"
+    },
+    "map_tab2": {
+      "Name": "Нотатки",
+      "Description": "I HAVE BEEN WATCHING HIM AND HIS WARMTH. WHAT IF I IMMOLATE MYSELF IN HIS FIREPLACE? COULD I FIND HIS WARMTH THEN?"
+    },
+    "map_tab3": {
+      "Name": "Креслення",
+      "Important": 1,
+      "Description": "Креслення... якогось порталу. Схоже, він використовує частини тіл для будівництва - це пояснює, чому скелети збирали м'ясо. ##Невідомо, що станеться, якщо мерці покинуть це місце. Я повинен сказати своєму роботодавцю."
+    }
+  }
+}

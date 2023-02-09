@@ -1,0 +1,28 @@
+{
+  "map_mission0": {
+    "Dialogue": "The figure glows with life.",
+    "Name": "Говорити",
+    "Description": "\"Я не очікував гостей,\" сказала фігура знайомим тоном.",
+    "Child 1": "map_tab1",
+    "Child 2": "map_tab2",
+    "Child 3": "map_tab3",
+    "map_tab1": {
+      "Name": "Хто ти?",
+      "Description": "\"Я говорив до тебе так довго. \""
+    },
+    "map_tab2": {
+      "Name": "Де ми?",
+      "Description": "\"Мій дім - but I have shared my warmth with you before, as I have for all who roam.\" "
+    },
+    "map_tab3": {
+      "Name": "Скелети",
+      "Description": "\"&y&Ізбан&!& comes,\" crackled the flames. \"Я не можу зупинити його. Я не бог смерті. Perhaps you'll share this coffin, grim and dim?\"",
+      "Child 1": "map_ib",
+      "map_ib": {
+        "Name": "Ізбан",
+        "Important": 1,
+        "Description": "\"Він вже тут,\" spoke the flames. ##\"Свобода йому не судилась,#Як і довіра моя.#Мені б не дуже хотілось...#...Ділити з мерцем укриття.\" "
+      }
+    }
+  }
+}

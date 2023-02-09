@@ -1,0 +1,435 @@
+{
+  "map_mission0": {
+    "Name": "Місія",
+    "Description": "\"Як ти дістався сюди?\"",
+    "Important": 1,
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "\"коли ror2?\""
+    }
+  },
+  "map_mission1": {
+    "Dialogue": "Полум'я з ревінням оживає - і голос промовляє. \"Ще одне життя, добре повернене!\"",
+    "Name": "Місія",
+    "Description": "\"Мої Свічки розповідають мені казки,#&y&Нежить&!& формується і розквітає#Знайди їх місце проживання і постукай,#Та звільни їх із в'язниць.\" ##Полум'я ніколи не говорило прозою.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_zombie",
+    "map_zombie": {
+      "Name": "Мерці",
+      "Description": "Вогонь облизується і глузує. Нежиті, включно з зомбі, потрібно допомогти досягти загробного життя."
+    },
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Нежить найлегше вбити, будучи наодинці."
+    }
+  },
+  "map_mission2": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"The undead begin to crop#strange &b&powders&!& from below.#Incite the flame -#eject their brains!#And see what it contains.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_drugs",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "У дальньому кінці будинку стоїть &y&викидайло&!&. Я можу вбити його, щоб забрати зброю.",
+      "Child 1": "map_bouncer",
+      "map_bouncer": {
+        "Name": "Викидайло",
+        "Description": "Великі зомбі з дробовиками. Потрібно буде кілька пострілів в голову, щоб вбити їх."
+      }
+    },
+    "map_drugs": {
+      "Important": 1,
+      "Name": "Порошки",
+      "Description": "Новий наркотик, що звуть \"попелом.\" Його свічки кажуть, що він дає відчуття, ніби ти знову живий. Полум'я - мій роботодавець - хоче знати більше."
+    }
+  },
+  "map_mission3": {
+    "Dialogue": "Полум'я з ревінням оживає - і я бачу видіння всередині.",
+    "Name": "Місія",
+    "Description": "Камін заговорив: #\"Плоть гробів дихає.#Попіл спали,#зуби їхні розкидай.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_gun",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Я бачу два входи в будинок. У лівому вході менше зомбі, але у правому більше зброї. Що ж обрати..."
+    },
+    "map_gun": {
+      "map_dock": {
+        "Name": "docks",
+        "Description": "Харон живе в доках. Я можу обміняти душі на зброю, перш ніж прийняти свою місію."
+      },
+      "Name": "Нова зброя",
+      "Child 1": "map_dock",
+      "Important": 1,
+      "Description": "Я бачу видіння Харона, Поромника. Можливо, його зацікавлять душі, які я зібрав для нашого спільного роботодавця. Я повинен зустрітися з ним в &y&доках&!& перед моєю наступною місією."
+    }
+  },
+  "map_mission4": {
+    "Dialogue": "Полум'я з ревінням оживає - і ти бачиш видіння про чоловіка, Пафф.",
+    "Name": "Місія",
+    "Description": "\"Немає часу тікати -# він не повинен бути тут.#&y&Людина з серцем&!&,#не може жити зі мною.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_puff",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Свічки кажуть, що Пафф тримає у себе в підвалі старий кулемет, який він вкрав у Trideads. Я впевнений, що він все ще працює."
+    },
+    "map_puff": {
+      "Name": "Пафф",
+      "Important": 1,
+      "Description": "Тіні кидаються вздовж стіни, а в полум'ї вимальовуються силуети загиблого Паффа.## Це вперше мій роботодавець дав мені конкретну ціль і я захоплений хвилюванням."
+    }
+  },
+  "map_mission5": {
+    "Dialogue": "Полум'я з ревінням оживає, з більшою енергією, ніж зазвичай. Мій роботодавець задоволений успіхом.",
+    "Name": "Місія",
+    "Description": "\"Пекельні пси з-під землі,#виведені нежиттю.#Припиніть плач#і скрегіт зубів.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Пекельні пси - це триголові собаки з дивовижним слухом, але вони не можуть відчиняти двері. Я використаю це на свою користь."
+    }
+  },
+  "map_mission6": {
+    "Dialogue": "Полум'я з ревінням оживає - і я бачу видіння всередині.",
+    "Name": "Місія",
+    "Description": "\"Моя &y&Свічка&!& шукала,#але не повернулася.\" ##Друга адреса знайома каміну - я дізнаюся, що сталося зі Свічкою.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_reaper",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Зомбі розвісили камери спостереження. Вони мало що роблять, але будуть кричати, якщо будуть бачити мене занадто довго. Я уникатиму їх, або збиватиму своєю зброєю."
+    },
+    "map_reaper": {
+      "Name": "Свічка",
+      "Description": "Свічки - це очі і вуха полум'я, які завжди спостерігають і приносять інформацію."
+    }
+  },
+  "map_mission7": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "The Zombie Kingz have become scared of my hunt. They have begun heavily guarding a nearby motel - I will find what they are hiding.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child2": "map_lamp",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "The Candles tell me that Zombie Kingz patrols are nearby. I'll have to be quick, in case there are reinforcements."
+    },
+    "map_lamp": {
+      "Name": "Лампа",
+      "Description": "\"A man of light,\" spoke the fireplace, \"should not have to spend his time in darkness.\""
+    }
+  },
+  "map_mission8": {
+    "Dialogue": "Полум'я з ревінням оживає - and I see visions inside.",
+    "Name": "Місія",
+    "Description": "\"Їхнє місцезнаходження - роз'яснено!#Спали попіл, #спали мертвих,#та душі звільни.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Моя місія полягає в тому, щоб знищити весь попіл, але буде краще, якщо я спочатку зосереджуся на знищенні нежиті."
+    }
+  },
+  "map_mission9": {
+    "Dialogue": "Полум'я з ревінням оживає - and I see blood inside.",
+    "Name": "Місія",
+    "Description": "\"Attempting to lead,#his creed to salvation.#&y&A man with ambition&!&,#cannot live with me.\" ",
+    "Child 1": "map_intel",
+    "Child 2": "map_roland",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Rolands' house is filled with many guards - but the only target is Roland. I'll separate him from his men."
+    },
+    "map_roland": {
+      "Name": "Роланд",
+      "Description": "Його смерть зруйнує керівництво Зомбі Кінгз. Я повинен пам'ятати, що місія полягає в тому, щоб вбити Роланда, а не інших.",
+      "Important": 1
+    }
+  },
+  "map_mission10": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"Бліде місячне світло. #Доторкнись - немає тепла. #&b&VВампіри&!& гуртуються, #з'ясуй чому.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_vamp",
+    "map_vamp": {
+      "Name": "Вампіри",
+      "Description": "Висока нежить, про яку кажуть, що вона з'явилася через зраду коханого. Вони набагато небезпечніші за зомбі - доведеться подбати про те, щоб кожен постріл був на рахунку. ",
+      "Child 1": "map_mirror",
+      "map_mirror": {
+        "Name": "Дзеркало",
+        "Description": "\"Поглянь на своє відображення,\" сказав камін, \"і памятай, що ти не такий, як усі. Ти не нежить.\""
+      },
+      "Important": 1
+    },
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Вампіри, що танцюють, не помітять вашої присутності, якщо тільки ви не стрілятимете в них."
+    }
+  },
+  "map_mission11": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"Більше, більше, набагато більше. #Так багато трупів, #які забули померти.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Дробовики найсильніші біля дверей та входів, де ворог не може зреагувати, поки не стане занадто пізно."
+    }
+  },
+  "map_mission12": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"Реформа вампірів - #зал неподалік. #Дізнайся про їхню мету і принеси їм бурю.\"##У цьому залі є сейф - можливо, я зможу зрозуміти, чому раптом з'явилися ці клуби.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Child 1": "map_bottle",
+      "Description": "Деякі вампіри тримають свої душі поза тілом, зберігаючи їх у &y&філактеріях&!&. Вони повинні бути знищені, щоб остаточно вбити вампіра.",
+      "map_bottle": {
+        "Name": "Філактерія",
+        "Description": "Магічні чари - вампіри віддають перевагу пляшкам. Вони будуть підсвічені помітним синім кольором."
+      }
+    }
+  },
+  "map_mission13": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "Свічки помітили вампірів, які приходять і йдуть з промислового району - за тією ж адресою, яку я знайшов у сейфі. Я дізнаюся, що вони роблять. ##Раптом полум'я заговорило: \"Цілі у нежиті завжди однакові.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_cat",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "У деяких вампірів будуть філактерії у важкодоступних місцях, їх доведеться вбити кілька разів."
+    },
+    "map_cat": {
+      "Name": "Кіт",
+      "Description": "\"Я... подумав, що тобі не завадить компанія,\" промовив камін. \"Життя не призначене для того, щоб проводити його на самоті.\""
+    }
+  },
+  "map_mission14": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"&b&Близнючки&!& загублені в морі - #похоті і болю. #Жінки без любові, #не можуть жити без мене.\"",
+    "Child 1": "map_twins",
+    "Child 2": "map_intel",
+    "map_twins": {
+      "Name": "Близнючки",
+      "Important": 1,
+      "Child 1": "map_brothel",
+      "map_brothel": {
+        "Name": "Борделі",
+        "Description": "Вампіри є одночасно найпривабливішою і сексуально активною нежиттю, тож це природно."
+      },
+      "Description": "Ембер та Евелін run &y&brothels&!& downtown. They are high ranking members of the 1000 Year Royals - they must understand the crytpic messages I've been finding in the club safes."
+    },
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "The twins have somehow made each other their phylactery. I will have to kill both at nearly the same time."
+    }
+  },
+  "map_mission15": {
+    "Dialogue": "The flames stay extinguished.",
+    "Name": "Місія",
+    "Description": "A club the Candles have been investigating has suddenly gone quiet - along with the Candles. What happened inside?",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "There is no intel. The fireplace remains quiet."
+    }
+  },
+  "map_mission16": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "The undead have somehow been turning their own bodies into ash... is that the purpose of all these clubs? &y&Sir&!& &y&Stela&!&, the head of the 1000 Year Royals, most likely knows how this was done.##\"He will know the key,#betrayal of kin.#A man without guilt,#cannot live with me.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_stela",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Sir Stela's private condominum is heavily guarded, so expect heavy opposition."
+    },
+    "map_stela": {
+      "Name": "Sir Stela",
+      "Important": 1,
+      "Description": "The Stela's are a royal family of vampires. Any activity in the 1000 Year Royals would not go without them knowing."
+    }
+  },
+  "map_mission17": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"Skeletons are found, #no flesh and no love.#Stop their harvest -#or &y&Ibzan&!& is crowned.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_ibzan",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "By the time I arrived, the harvest will be near complete. I'll only have a minute to destroy all the harvest totems."
+    },
+    "map_ibzan": {
+      "Name": "Ibzan",
+      "Description": "\"His heart long gone, #Ibzan leads The Dredged.#You must bring his end - #he cannot do it alone.\""
+    }
+  },
+  "map_mission18": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"No forest - a lone tree.#Kills her own for escape.#A woman without guilt,#cannot live with me.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "The Candles have reported Madam Stela has multiple phylacteries - I will have to destroy them all before taking Madam Stela down."
+    }
+  },
+  "map_mission19": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"Candles do not know,#the &y&skeletons'&!& aim. #Go and peer inside, #their precious cargo.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_skeleton",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "While the Candles couldn't see inside the cargo, they did spot a crane with a weapon on top."
+    },
+    "map_skeleton": {
+      "Name": "skeletons",
+      "Description": "Those who take their own life come back as skeletons, destined forever to roam this Place."
+    }
+  },
+  "map_mission20": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"They climb to the sky,#scouting for reapers.#Do not let them build - #they will fly too high.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Technicians plant mines when spooked - but the mines can be used against them."
+    }
+  },
+  "map_mission21": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"&y&Generals&!&, unchained!# Corpses to surface. #Find those who have drowned,#and drown them again.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_general",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "There is no reply, but the flames continues to crackle."
+    },
+    "map_general": {
+      "Important": 1,
+      "Name": "Генерали",
+      "Description": "Commonly known as lich, Generals have the ability to bring damaged skeletons back to life. The source of this power is unknown, even to the Candles."
+    }
+  },
+  "map_mission22": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"Around Ibzan - coils,#undead forgotten.#Open their coffins, #uncover their spoils.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "The Candles have found the location of all the skeletons' shipping containers - but many skeletons guard the location. Kill the Generals first, or draw them to a trap by killing nearby skeletons."
+    }
+  },
+  "map_mission23": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"&y&Timur&!& is free.#Knows purpose of flesh.#A man with desire,#cannot live with me.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_temur",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "There is no reply, but the flames continues to crackle."
+    },
+    "map_temur": {
+      "Important": 1,
+      "Name": "Тімур",
+      "Description": "\"Timur is the chief engineer for The Dredged. His crafting skills are only matched by his paranoia - his lab is outfitted with traps. I will have to tread carefully."
+    }
+  },
+  "map_mission24": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"&y&Demons&!& - they cross the river!##Ibzan feels the flame-#Hire help from beyond.#Demons are not dead#but die just the same.\" ##Ibzan is getting his car serviced at a nearby garage, defended by Demons. The return address to his home should be on the car.",
+    "Child 1": "map_demon",
+    "map_demon": {
+      "Important": 1,
+      "Name": "Demons",
+      "Description": "Creatures from beyond Charon's river, they sometimes make their way up as hired mercenaries. The Candles nor my employer know how the skeletons are paying for their service."
+    },
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "Demons bring high-powered weaponry from their lands. I will have to be careful and use cover accordingly."
+    }
+  },
+  "map_mission25": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "\"Дім його знайдений.#Знайди й портал.#Доведи, що він смертний.#Закинь його в трупів підвал.\" ##Ibzan's apartment must contain data about the &y&portal&!& The Dredged are planning to construct.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_portal",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "To help fight the Demon arsenal, Charon has lent us an extremely powerful weapon. I can find it in my car - I'll use it liberally."
+    },
+    "map_portal": {
+      "Name": "portal",
+      "Description": "The \"meat portal\" Timur constructed must be destroyed - or the skeletons, and all the undead with them, could leave this Place."
+    }
+  },
+  "map_mission26": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "I have found the location of the meat portal, but it is heavily defended by snipers. The &y&Candles&!& have offered their assistance, but I must first kill &y&Vall&!& - the best of the demon snipers.",
+    "Child 1": "map_intel",
+    "Child 2": "map_candles",
+    "Child 3": "map_vall",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "To get a clear shot at Vall I will have to get on the roof of a nearby building... while avoiding her sniper fire."
+    },
+    "map_candles": {
+      "Name": "Свічки",
+      "Description": "Свічки ніколи не беруть участь у бойових діях, але наш роботодавець зробив виняток."
+    },
+    "map_vall": {
+      "Important": 1,
+      "Name": "Валл",
+      "Description": "\"У фарбі кривавій#Її полотно.#Із жінкою-демоном,#Мені життя не дано.\""
+    }
+  },
+  "map_mission27": {
+    "Dialogue": "The flames stay extinguished - but a voice still speaks.",
+    "Name": "Місія",
+    "Description": "\"Свобода йому не судилась,#Як і довіра моя.#Мені б не дуже хотілось,#Ділити з мерцем укриття\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Інформація",
+      "Description": "The Candles will support from above - but they have limited ammunition. I will have to make sure I use their help conservatively."
+    }
+  },
+  "map_mission28": {
+    "Dialogue": "Полум'я з ревінням оживає.",
+    "Name": "Місія",
+    "Description": "The flames continue to crackle - it no longer has missions for me."
+  }
+}

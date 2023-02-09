@@ -1,0 +1,28 @@
+{
+  "map_mission0": {
+    "Dialogue": "Ви відкрили сейф.",
+    "Name": "Оглянути",
+    "Description": "Тут є кілька папірців та невеличкий предмет.",
+    "Child 1": "map_tab1",
+    "Child 2": "map_tab2",
+    "Child 3": "map_tab3",
+    "Child 4": "map_tab4",
+    "map_tab1": {
+      "Name": "Нотатки",
+      "Description": "I caught a Candle outside - he knows. The Candle died before I could find out more."
+    },
+    "map_tab2": {
+      "Name": "Нотатки",
+      "Description": "I have tried everything. I feel so cold. I just want to talk. I understand now - I regret it. I just want to apologize."
+    },
+    "map_tab3": {
+      "Name": "Нотатки",
+      "Description": "The construction of the portal is near complete. The demons have provided great manpower - we have snipers in a 5 mile radius around the old school building. Good luck getting in, reaper.",
+      "Important": 1
+    },
+    "map_tab4": {
+      "Name": "Предмет",
+      "Description": "Маленька металева запальничка. Здається, вона більше не працює."
+    }
+  }
+}
