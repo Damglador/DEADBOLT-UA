@@ -115,21 +115,21 @@
   "map_mission7": {
     "Dialogue": "Полум'я з ревінням оживає.",
     "Name": "Місія",
-    "Description": "The Zombie Kingz have become scared of my hunt. They have begun heavily guarding a nearby motel - I will find what they are hiding.",
+    "Description": "Зомбі Кінгз налякані моїм полюванням. Вони почали посилено охороняти сусідній мотель - я знайду те, що вони ховають.",
     "Important": 1,
     "Child 1": "map_intel",
     "Child2": "map_lamp",
     "map_intel": {
       "Name": "Інформація",
-      "Description": "The Candles tell me that Zombie Kingz patrols are nearby. I'll have to be quick, in case there are reinforcements."
+      "Description": "Свічки кажуть мені, що патрулі Зомбі Кінгз десь поблизу. Треба поспішати, на випадок, якщо прийде підкріплення."
     },
     "map_lamp": {
       "Name": "Лампа",
-      "Description": "\"A man of light,\" spoke the fireplace, \"should not have to spend his time in darkness.\""
+      "Description": "\"Людина світла,\" промовив камін, \"не повинна проводити свій час у темряві.\""
     }
   },
   "map_mission8": {
-    "Dialogue": "Полум'я з ревінням оживає - and I see visions inside.",
+    "Dialogue": "Полум'я з ревінням оживає - і я бачу видіння всередині.",
     "Name": "Місія",
     "Description": "\"Їхнє місцезнаходження - роз'яснено!#Спали попіл, #спали мертвих,#та душі звільни.\"",
     "Important": 1,
@@ -140,14 +140,14 @@
     }
   },
   "map_mission9": {
-    "Dialogue": "Полум'я з ревінням оживає - and I see blood inside.",
+    "Dialogue": "Полум'я з ревінням оживає - і я бачу кров всередині.",
     "Name": "Місія",
     "Description": "\"Attempting to lead,#his creed to salvation.#&y&A man with ambition&!&,#cannot live with me.\" ",
     "Child 1": "map_intel",
     "Child 2": "map_roland",
     "map_intel": {
       "Name": "Інформація",
-      "Description": "Rolands' house is filled with many guards - but the only target is Roland. I'll separate him from his men."
+      "Description": "У будинку Роланда багато охоронців, але ціль - Роланд. Я розділю його з його людьми."
     },
     "map_roland": {
       "Name": "Роланд",
@@ -237,18 +237,18 @@
     },
     "map_intel": {
       "Name": "Інформація",
-      "Description": "The twins have somehow made each other their phylactery. I will have to kill both at nearly the same time."
+      "Description": "Близнючки якимось чином зробили один одного своєю філактерією. Мені доведеться вбити обох майже одночасно."
     }
   },
   "map_mission15": {
-    "Dialogue": "The flames stay extinguished.",
+    "Dialogue": "Полум'я все ще погашене.",
     "Name": "Місія",
-    "Description": "A club the Candles have been investigating has suddenly gone quiet - along with the Candles. What happened inside?",
+    "Description": "Клуб, який розслідували Свічки, раптово затих - разом зі Свічками. Що сталося всередині?",
     "Important": 1,
     "Child 1": "map_intel",
     "map_intel": {
       "Name": "Інформація",
-      "Description": "There is no intel. The fireplace remains quiet."
+      "Description": "Ніякої інформації немає. Камін мовчить."
     }
   },
   "map_mission16": {
@@ -259,12 +259,12 @@
     "Child 2": "map_stela",
     "map_intel": {
       "Name": "Інформація",
-      "Description": "Sir Stela's private condominum is heavily guarded, so expect heavy opposition."
+      "Description": "Володіння сера Стели ретельно охороняється, тому слід очікувати сильного опору."
     },
     "map_stela": {
-      "Name": "Sir Stela",
+      "Name": "Сер Стела",
       "Important": 1,
-      "Description": "The Stela's are a royal family of vampires. Any activity in the 1000 Year Royals would not go without them knowing."
+      "Description": "Стели - королівська родина вампірів. Будь-яка діяльність у 1000 Річних королівських не пройшла б без їхнього відома."
     }
   },
   "map_mission17": {
@@ -276,38 +276,38 @@
     "Child 2": "map_ibzan",
     "map_intel": {
       "Name": "Інформація",
-      "Description": "By the time I arrived, the harvest will be near complete. I'll only have a minute to destroy all the harvest totems."
+      "Description": "Коли я прибуду, жнива будуть майже завершені. У мене буде лише хвилина, щоб знищити всі тотеми врожаю."
     },
     "map_ibzan": {
-      "Name": "Ibzan",
+      "Name": "Ізбан",
       "Description": "\"His heart long gone, #Ibzan leads The Dredged.#You must bring his end - #he cannot do it alone.\""
     }
   },
   "map_mission18": {
     "Dialogue": "Полум'я з ревінням оживає.",
     "Name": "Місія",
-    "Description": "\"No forest - a lone tree.#Kills her own for escape.#A woman without guilt,#cannot live with me.\"",
+    "Description": "\"Самотнє дерево, без лісу.#Вбиває своїх, щоб втекти.#Жінка, що уникає вини,#не може жити зі мною.\"",
     "Important": 1,
     "Child 1": "map_intel",
     "map_intel": {
       "Name": "Інформація",
-      "Description": "The Candles have reported Madam Stela has multiple phylacteries - I will have to destroy them all before taking Madam Stela down."
+      "Description": "Свічки повідомили, що у мадам Стели багато філактерій - мені доведеться знищити їх усіх, перш ніж вбити мадам Стелу."
     }
   },
   "map_mission19": {
     "Dialogue": "Полум'я з ревінням оживає.",
     "Name": "Місія",
-    "Description": "\"Candles do not know,#the &y&skeletons'&!& aim. #Go and peer inside, #their precious cargo.\"",
+    "Description": "\"Свічки не знають,#на що націлені &y&скелети&!&.#Зазирни до них#й знайди їх вантаж.\"",
     "Important": 1,
     "Child 1": "map_intel",
     "Child 2": "map_skeleton",
     "map_intel": {
       "Name": "Інформація",
-      "Description": "While the Candles couldn't see inside the cargo, they did spot a crane with a weapon on top."
+      "Description": "Хоча Свічки не могли зазирнути всередину вантажу, вони помітили кран зі зброєю на даху."
     },
     "map_skeleton": {
-      "Name": "skeletons",
-      "Description": "Those who take their own life come back as skeletons, destined forever to roam this Place."
+      "Name": "Скелети",
+      "Description": "Ті, хто накладає на себе руки, повертаються скелетами, приреченими вічно блукати цим \"місцем\"."
     }
   },
   "map_mission20": {
