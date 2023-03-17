@@ -1,6 +1,6 @@
 {
     "Strings": [
-        "прототипи(це зломає гру)",
+        "prototype",
         "@@array@@",
         "arguments",
         "child",
