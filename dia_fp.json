@@ -142,7 +142,7 @@
   "map_mission9": {
     "Dialogue": "Полум'я з ревінням оживає - і я бачу кров всередині.",
     "Name": "Місія",
-    "Description": "\"Attempting to lead,#his creed to salvation.#&y&A man with ambition&!&,#cannot live with me.\" ",
+    "Description": "\"В спробах спасіння#креда свого.#&y&Людині амбіцій&!&#життя не дано.\" ",
     "Child 1": "map_intel",
     "Child 2": "map_roland",
     "map_intel": {
