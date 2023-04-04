@@ -29,7 +29,7 @@
   "map_mission2": {
     "Dialogue": "Полум'я з ревінням оживає.",
     "Name": "Місія",
-    "Description": "\"The undead begin to crop#strange &b&powders&!& from below.#Incite the flame -#eject their brains!#And see what it contains.\"",
+    "Description": "\"Мерці дивний &b&порошок&!& збирають внизу.#Мізки вийми, вогонь розпали!#Знайди, що всередині ховають вони.\"",
     "Child 1": "map_intel",
     "Child 2": "map_drugs",
     "map_intel": {
@@ -280,7 +280,7 @@
     },
     "map_ibzan": {
       "Name": "Ізбан",
-      "Description": "\"His heart long gone, #Ibzan leads The Dredged.#You must bring his end - #he cannot do it alone.\""
+      "Description": "\"Серце його#зникло давно.#Ізбан - Спустошених лідер.#Принеси кінець йому,#Бо не може зробить він цього.\""
     }
   },
   "map_mission18": {
