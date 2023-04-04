@@ -233,11 +233,11 @@
         "Name": "Борделі",
         "Description": "Вампіри є одночасно найпривабливішою і сексуально активною нежиттю, тож це природно."
       },
-      "Description": "Ембер та Евелін тримають &y&борделі&!& в центрі міста. They are high ranking members of the 1000 Year Royals - they must understand the crytpic messages I've been finding in the club safes."
+      "Description": "Ембер та Евелін тримають &y&борделі&!& в центрі міста. Вони високопоставлені учасниці 1000 річних королівських - вони мають розуміти загадкові повідомлення, що я знайшов в сейфах клубу."
     },
     "map_intel": {
       "Name": "Інформація",
-      "Description": "Близнючки якимось чином зробили один одного своєю філактерією. Мені доведеться вбити обох майже одночасно."
+      "Description": "Близнючки якимось чином зробили одна одну своєю філактерією. Мені доведеться вбити обох майже одночасно."
     }
   },
   "map_mission15": {
@@ -254,7 +254,7 @@
   "map_mission16": {
     "Dialogue": "Полум'я з ревінням оживає.",
     "Name": "Місія",
-    "Description": "The undead have somehow been turning their own bodies into ash... is that the purpose of all these clubs? &y&Sir&!& &y&Stela&!&, the head of the 1000 Year Royals, most likely knows how this was done.##\"He will know the key,#betrayal of kin.#A man without guilt,#cannot live with me.\"",
+    "Description": "Нежить, якимось чином, перетворює власні тіла на попіл... це ціль їхніх клубів? &y&Сер&!& &y&Стела&!&, голова 1000 річних королівських, скоріше за все, знає, як це відбувається.##\"Він знатиме ключ,#зрадник роду.#Чоловік без почуття провини,#не може жити зі мною.\"",
     "Child 1": "map_intel",
     "Child 2": "map_stela",
     "map_intel": {
@@ -351,7 +351,7 @@
   "map_mission23": {
     "Dialogue": "Полум'я з ревінням оживає.",
     "Name": "Місія",
-    "Description": "\"&y&Timur&!& is free.#Knows purpose of flesh.#A man with desire,#cannot live with me.\"",
+    "Description": "\"&y&Тімур&!& на свободі.#Знає призначення плоті.#Чоловік з бажанням,#не може жити зі мною.\"",
     "Child 1": "map_intel",
     "Child 2": "map_temur",
     "map_intel": {
