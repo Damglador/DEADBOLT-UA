@@ -9,15 +9,15 @@
     "Child 4": "map_tab4",
     "map_tab1": {
       "Name": "Нотатки",
-      "Description": "I caught a Candle outside - he knows. The Candle died before I could find out more."
+      "Description": "Я зловив Свічку на вулиці - він знає. Свічка помер до того, як я встиг дізнатися більше."
     },
     "map_tab2": {
       "Name": "Нотатки",
-      "Description": "I have tried everything. I feel so cold. I just want to talk. I understand now - I regret it. I just want to apologize."
+      "Description": "Я все перепробував. Мені так холодно. Я просто хочу поговорити. Тепер я розумію - я шкодую про це. Я просто хочу вибачитися."
     },
     "map_tab3": {
       "Name": "Нотатки",
-      "Description": "The construction of the portal is near complete. The demons have provided great manpower - we have snipers in a 5 mile radius around the old school building. Good luck getting in, reaper.",
+      "Description": "Будівництво порталу наближається до завершення. Демони надали велику кількість людей, у нас є снайпери в радіусі 5 миль навколо старої школи. Щасти тобі потрапити всередину, Жнець.",
       "Important": 1
     },
     "map_tab4": {
