@@ -1,0 +1,23 @@
+{
+  "map_mission0": {
+    "Dialogue": "You open the safe - and, again, there isn't much inside",
+    "Name": "Look",
+    "Description": "There are three envelopes.",
+    "Child 1": "map_tab1",
+    "Child 2": "map_tab2",
+    "Child 3": "map_tab3",
+    "map_tab2": {
+      "Name": "Envelope",
+      "Description": "The envelope contains a date a month from now, and the address of The Bloody Mary."
+    },
+    "map_tab1": {
+      "Name": "Envelope",
+      "Description": "The envelope is full of money."
+    },
+    "map_tab3": {
+      "Name": "Envelope",
+      "Description": "The envelope contains an address near the docks. This may be important.",
+      "Important": 1
+    }
+  }
+}

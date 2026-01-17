@@ -1,0 +1,28 @@
+{
+  "map_mission0": {
+    "Dialogue": "The figure glows with life.",
+    "Name": "Talk",
+    "Description": "\"I was not expecting guests,\" said the figure in a familiar tone.",
+    "Child 1": "map_tab1",
+    "Child 2": "map_tab2",
+    "Child 3": "map_tab3",
+    "map_tab1": {
+      "Name": "Who",
+      "Description": "\"I've spoken to you so long. \""
+    },
+    "map_tab2": {
+      "Name": "Where",
+      "Description": "\"My home - but I have shared my warmth with you before, as I have for all who roam.\" "
+    },
+    "map_tab3": {
+      "Name": "Skeletons",
+      "Description": "\"&y&Ibzan&!& comes,\" crackled the flames. \"I cannot stop him. I am not the god of death. Perhaps you'll share this coffin, grim and dim?\"",
+      "Child 1": "map_ib",
+      "map_ib": {
+        "Name": "Ibzan",
+        "Important": 1,
+        "Description": "\"He is already here,\" spoke the flames. ##\"He cannot be free.#I cannot forgive.#A man - undead...#...cannot live with me.\" "
+      }
+    }
+  }
+}

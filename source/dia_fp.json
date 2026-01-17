@@ -1,0 +1,435 @@
+{
+  "map_mission0": {
+    "Name": "Mission",
+    "Description": "\"How did you get here?\"",
+    "Important": 1,
+    "Dialogue": "The flames roar to life.",
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "\"ror2 when\""
+    }
+  },
+  "map_mission1": {
+    "Dialogue": "The flames roar to life - and a voice speaks out. \"Another life, well returned!\"",
+    "Name": "Mission",
+    "Description": "\"My Candles tell me tales,#&y&Undead&!& form and blossom#Find their abode and knock,#And free them from their jails.\" ##The flames never spoke in prose.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_zombie",
+    "map_zombie": {
+      "Name": "Undead",
+      "Description": "The fire licks and sneers. Undead, zombies included, must be helped towards the afterlife."
+    },
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Undead are easiest to kill when alone."
+    }
+  },
+  "map_mission2": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"The undead begin to crop#strange &b&powders&!& from below.#Incite the flame -#eject their brains!#And see what it contains.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_drugs",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "There's a &y&bouncer&!& on the far side of the house. I can kill him to get his weapon.",
+      "Child 1": "map_bouncer",
+      "map_bouncer": {
+        "Name": "bouncer",
+        "Description": "Large zombies with shotguns. Takes a few shots to the head to bring them down."
+      }
+    },
+    "map_drugs": {
+      "Important": 1,
+      "Name": "powders",
+      "Description": "A new drug called \"ash.\" His candles say that it makes you feel like you're alive again. The flames - my employer - want to know more."
+    }
+  },
+  "map_mission3": {
+    "Dialogue": "The flames roar to life - and I see visions inside.",
+    "Name": "Mission",
+    "Description": "The fireplace began to speak, #\"Flesh caskets breathe.#Burn the ash,#scatter their teeth.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_gun",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "I see two entrances to the house. The left entrance has less zombies, but the right entrance has more weapons. My choice."
+    },
+    "map_gun": {
+      "map_dock": {
+        "Name": "docks",
+        "Description": "Charon lives at the docks - I can exchange souls for weapons before I accept my mission."
+      },
+      "Name": "New Gun",
+      "Child 1": "map_dock",
+      "Important": 1,
+      "Description": "I see visions of Charon, the Ferryman. He may be interested in the souls I have collected for our mutual employer - I should see him at the &y&docks&!& before my next mission."
+    }
+  },
+  "map_mission4": {
+    "Dialogue": "The flames roar to life - and you see visions of a man, Puff.",
+    "Name": "Mission",
+    "Description": "\"No moment to flee -# he should not be here.#&y&A man with a heart&!&,#cannot live with me.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_puff",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "The Candles tell me that Puff keeps an old machine gun in his basement - something he stole from the Trideads. I am sure it still works."
+    },
+    "map_puff": {
+      "Name": "Puff",
+      "Important": 1,
+      "Description": "Shadows cast along the wall, and the flames show me silhouettes of Puff's death.##This is the first time my employer has given me a specific target - and I succumb to the thrill."
+    }
+  },
+  "map_mission5": {
+    "Dialogue": "The flames roar to life, with more vigor than usual. My employer is happy with success.",
+    "Name": "Mission",
+    "Description": "\"Hellhounds from beneath, #bred by the undead.#Go stop the weeping, #and gnashing of teeth.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Hellhounds are three headed dogs with amazing sense of hearing, but they can't open doors. I'll use that to my advantage."
+    }
+  },
+  "map_mission6": {
+    "Dialogue": "The flames roar to life - and I see visions inside.",
+    "Name": "Mission",
+    "Description": "\"My &y&Candle&!& has searched,#but never returned.\" ##The second address is familiar to the fireplace - I'll find what happened to the Candle.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_reaper",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "The zombies have hung up security cameras. They don't do much, but will scream if it sees me for too long. I'll avoid them, or shoot them down."
+    },
+    "map_reaper": {
+      "Name": "Candle",
+      "Description": "Candles are the eyes and ears of the flames, always observing and bringing information."
+    }
+  },
+  "map_mission7": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "The Zombie Kingz have become scared of my hunt. They have begun heavily guarding a nearby motel - I will find what they are hiding.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child2": "map_lamp",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "The Candles tell me that Zombie Kingz patrols are nearby. I'll have to be quick, in case there are reinforcements."
+    },
+    "map_lamp": {
+      "Name": "Lamp",
+      "Description": "\"A man of light,\" spoke the fireplace, \"should not have to spend his time in darkness.\""
+    }
+  },
+  "map_mission8": {
+    "Dialogue": "The flames roar to life - and I see visions inside.",
+    "Name": "Mission",
+    "Description": "\"Their location - explained!#Burn the ash, #burn the dead,#and free souls contained.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "My mission is to destroy all the ash - but it is best if I focus on killing the undead first."
+    }
+  },
+  "map_mission9": {
+    "Dialogue": "The flames roar to life - and I see blood inside.",
+    "Name": "Mission",
+    "Description": "\"Attempting to lead,#his creed to salvation.#&y&A man with ambition&!&,#cannot live with me.\" ",
+    "Child 1": "map_intel",
+    "Child 2": "map_roland",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Rolands' house is filled with many guards - but the only target is Roland. I'll separate him from his men."
+    },
+    "map_roland": {
+      "Name": "Roland",
+      "Description": "His death will shatter the Zombie Kingz leadership - I must remember that the mission is to kill Roland, not the others.",
+      "Important": 1
+    }
+  },
+  "map_mission10": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"Pale moonlight. #Touch -  no heat. #&b&Vampires&!& flock, #find out why.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_vamp",
+    "map_vamp": {
+      "Name": "Vampires",
+      "Description": "Tall undead, said to be formed by betrayal from a lover. They are much more dangerous than zombies - I'll have to make sure that every shot counts. ",
+      "Child 1": "map_mirror",
+      "map_mirror": {
+        "Name": "Mirror",
+        "Description": "\"Look upon your reflection,\" said the fireplace, \"and remember that you are different. You are not undead.\""
+      },
+      "Important": 1
+    },
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Dancing vampires won't notice your presence - unless you shoot them."
+    }
+  },
+  "map_mission11": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"More, more, so many more. #So many corpses, #who forgot to die.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Shotgun weapons are strongest near doors and entryways, where enemies can't react until it's too late."
+    }
+  },
+  "map_mission12": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"The vampires reform - #a lounge not too far. #Discover their aim, #and bring them a storm.\"##This lounge contains a safe - maybe I can understand why these clubs have been suddenly appearing.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Child 1": "map_bottle",
+      "Description": "Some vampires have their souls outside of their body, stored in &y&phylacteries&!&. They must be destroyed to kill the vampire.",
+      "map_bottle": {
+        "Name": "phylactery",
+        "Description": "Magical charms - the vampires prefer bottles. They will glow noticeably blue."
+      }
+    }
+  },
+  "map_mission13": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "Candles have spotted vampires coming and going from the industrial district - the same address I found in the safe. I'll find out what they're doing. ##Suddenly, the flames speak: \"The goals of undead are always the same.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_cat",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Some vampires will have phylacteries in difficult places, and will have to be killed multiple times."
+    },
+    "map_cat": {
+      "Name": "Cat",
+      "Description": "\"I... thought you could use companionship,\" spoke the fireplace. \"Life is not meant to be spent alone.\""
+    }
+  },
+  "map_mission14": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"&b&Twins&!& lost at sea - #of lust and of pain. #Women without love, #cannot live with me.\"",
+    "Child 1": "map_twins",
+    "Child 2": "map_intel",
+    "map_twins": {
+      "Name": "Twins",
+      "Important": 1,
+      "Child 1": "map_brothel",
+      "map_brothel": {
+        "Name": "brothels",
+        "Description": "The vampires are both the most attractive and sexually active undead, so it comes naturally."
+      },
+      "Description": "Amber and Evelynn run &y&brothels&!& downtown. They are high ranking members of the 1000 Year Royals - they must understand the crytpic messages I've been finding in the club safes."
+    },
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "The twins have somehow made each other their phylactery. I will have to kill both at nearly the same time."
+    }
+  },
+  "map_mission15": {
+    "Dialogue": "The flames stay extinguished.",
+    "Name": "Mission",
+    "Description": "A club the Candles have been investigating has suddenly gone quiet - along with the Candles. What happened inside?",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "There is no intel. The fireplace remains quiet."
+    }
+  },
+  "map_mission16": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "The undead have somehow been turning their own bodies into ash... is that the purpose of all these clubs? &y&Sir&!& &y&Stela&!&, the head of the 1000 Year Royals, most likely knows how this was done.##\"He will know the key,#betrayal of kin.#A man without guilt,#cannot live with me.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_stela",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Sir Stela's private condominum is heavily guarded, so expect heavy opposition."
+    },
+    "map_stela": {
+      "Name": "Sir Stela",
+      "Important": 1,
+      "Description": "The Stela's are a royal family of vampires. Any activity in the 1000 Year Royals would not go without them knowing."
+    }
+  },
+  "map_mission17": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"Skeletons are found, #no flesh and no love.#Stop their harvest -#or &y&Ibzan&!& is crowned.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_ibzan",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "By the time I arrived, the harvest will be near complete. I'll only have a minute to destroy all the harvest totems."
+    },
+    "map_ibzan": {
+      "Name": "Ibzan",
+      "Description": "\"His heart long gone, #Ibzan leads The Dredged.#You must bring his end - #he cannot do it alone.\""
+    }
+  },
+  "map_mission18": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"No forest - a lone tree.#Kills her own for escape.#A woman without guilt,#cannot live with me.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "The Candles have reported Madam Stela has multiple phylacteries - I will have to destroy them all before taking Madam Stela down."
+    }
+  },
+  "map_mission19": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"Candles do not know,#the &y&skeletons'&!& aim. #Go and peer inside, #their precious cargo.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_skeleton",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "While the Candles couldn't see inside the cargo, they did spot a crane with a weapon on top."
+    },
+    "map_skeleton": {
+      "Name": "skeletons",
+      "Description": "Those who take their own life come back as skeletons, destined forever to roam this Place."
+    }
+  },
+  "map_mission20": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"They climb to the sky,#scouting for reapers.#Do not let them build - #they will fly too high.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Technicians plant mines when spooked - but the mines can be used against them."
+    }
+  },
+  "map_mission21": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"&y&Generals&!&, unchained!# Corpses to surface. #Find those who have drowned,#and drown them again.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_general",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "There is no reply, but the flames continues to crackle."
+    },
+    "map_general": {
+      "Important": 1,
+      "Name": "Generals",
+      "Description": "Commonly known as lich, Generals have the ability to bring damaged skeletons back to life. The source of this power is unknown, even to the Candles."
+    }
+  },
+  "map_mission22": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"Around Ibzan - coils,#undead forgotten.#Open their coffins, #uncover their spoils.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "The Candles have found the location of all the skeletons' shipping containers - but many skeletons guard the location. Kill the Generals first, or draw them to a trap by killing nearby skeletons."
+    }
+  },
+  "map_mission23": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"&y&Timur&!& is free.#Knows purpose of flesh.#A man with desire,#cannot live with me.\"",
+    "Child 1": "map_intel",
+    "Child 2": "map_temur",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "There is no reply, but the flames continues to crackle."
+    },
+    "map_temur": {
+      "Important": 1,
+      "Name": "Timur",
+      "Description": "\"Timur is the chief engineer for The Dredged. His crafting skills are only matched by his paranoia - his lab is outfitted with traps. I will have to tread carefully."
+    }
+  },
+  "map_mission24": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"&y&Demons&!& - they cross the river!##Ibzan feels the flame-#Hire help from beyond.#Demons are not dead#but die just the same.\" ##Ibzan is getting his car serviced at a nearby garage, defended by Demons. The return address to his home should be on the car.",
+    "Child 1": "map_demon",
+    "map_demon": {
+      "Important": 1,
+      "Name": "Demons",
+      "Description": "Creatures from beyond Charon's river, they sometimes make their way up as hired mercenaries. The Candles nor my employer know how the skeletons are paying for their service."
+    },
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "Demons bring high-powered weaponry from their lands. I will have to be careful and use cover accordingly."
+    }
+  },
+  "map_mission25": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "\"His home is exposed.#Find the portal.#Prove him mortal.#Leave him decomposed.\" ##Ibzan's apartment must contain data about the &y&portal&!& The Dredged are planning to construct.",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "Child 2": "map_portal",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "To help fight the Demon arsenal, Charon has lent us an extremely powerful weapon. I can find it in my car - I'll use it liberally."
+    },
+    "map_portal": {
+      "Name": "portal",
+      "Description": "The \"meat portal\" Timur constructed must be destroyed - or the skeletons, and all the undead with them, could leave this Place."
+    }
+  },
+  "map_mission26": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "I have found the location of the meat portal, but it is heavily defended by snipers. The &y&Candles&!& have offered their assistance, but I must first kill &y&Vall&!& - the best of the demon snipers.",
+    "Child 1": "map_intel",
+    "Child 2": "map_candles",
+    "Child 3": "map_vall",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "To get a clear shot at Vall I will have to get on the roof of a nearby building... while avoiding her sniper fire."
+    },
+    "map_candles": {
+      "Name": "Candles",
+      "Description": "The Candles never engage in combat - but our employer has made an exception. "
+    },
+    "map_vall": {
+      "Important": 1,
+      "Name": "Vall",
+      "Description": "\"She paints with such glee!#A splattered canvas.#A woman of vision#cannot live with me.\""
+    }
+  },
+  "map_mission27": {
+    "Dialogue": "The flames stay extinguished - but a voice still speaks.",
+    "Name": "Mission",
+    "Description": "\"He cannot be free.#I cannot forgive.#A man - undead#cannot live with me.\"",
+    "Important": 1,
+    "Child 1": "map_intel",
+    "map_intel": {
+      "Name": "Intel",
+      "Description": "The Candles will support from above - but they have limited ammunition. I will have to make sure I use their help conservatively."
+    }
+  },
+  "map_mission28": {
+    "Dialogue": "The flames roar to life.",
+    "Name": "Mission",
+    "Description": "The flames continue to crackle - it no longer has missions for me."
+  }
+}

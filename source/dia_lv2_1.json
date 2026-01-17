@@ -1,0 +1,18 @@
+{
+  "map_mission0": {
+    "Dialogue": "You open the safe - there isn't much inside",
+    "Name": "Look",
+    "Description": "There are two envelopes.",
+    "Child 1": "map_tab1",
+    "Child 2": "map_tab2",
+    "map_tab1": {
+      "Name": "Envelope",
+      "Description": "The envelope is full of money - probably club earnings."
+    },
+    "map_tab2": {
+      "Name": "Envelope",
+      "Description": "The envelope contains a date two weeks from now, and an address - the address of this club. It seems important.",
+      "Important": 1
+    }
+  }
+}
