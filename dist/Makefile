@@ -38,5 +38,5 @@ $(ARCHIVE_NAME)-Windows.zip: $(WIN_FILES) $(DIALOGS) $(STAGES)
 .PHONY:  clean
 clean:
 	rm -r $(UNX_BUILD) $(WIN_BUILD)
-	rm "$(ARCHIVE_NAME)-Windows.zip"
-	rm "$(ARCHIVE_NAME)-Linux.zip"
+	rm $(ARCHIVE_NAME)-Windows.zip
+	rm $(ARCHIVE_NAME)-Linux.zip
