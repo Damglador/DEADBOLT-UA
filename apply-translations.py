@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json
 import os
 
@@ -19,7 +21,8 @@ for target_file in target_files:
 
   for i, string in enumerate(target["Strings"]):
     if string in translations:
-      target["Strings"][i] = translations[string]
+      if translations[string] != "TODO":
+        target["Strings"][i] = translations[string]
 
   with open(f"translated/strings/{os.path.basename(target_file)}", "w", encoding="utf-8") as file:
       json.dump(target, file, ensure_ascii=False, indent=4)
