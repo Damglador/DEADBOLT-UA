@@ -244,7 +244,7 @@
   "Another club, another safe - maybe this one will have useful information.": "Інший клуб - інший сейф, можливо, тут буде корисна інформація.",
   "Bottle Service": "Пляшковий сервіс",
   "What are the vampires doing near the docks?": "Що вампіри роблять біля доків?",
-  "Amber & Evelynn": "Ембер та Евелін",
+  "Amber & Evelyn": "Ембер та Евелін",
   "Twin vampires are running a brothel. Shut it down.": "Вампірки-близнючки керують борделем. Прикрий його.",
   "A Lot To Give": "Є що віддати",
   "This club is strangely quiet - what happened?": "У цьому клубі підозріло тихо, що сталося?",
@@ -457,5 +457,9 @@
   "Splish, splash. The dinghy rocks - we fit fifteen in a boat meant more for two. Splish, splash. We hit an old post in the dark - and Goroduth careens over the edge into the cold dark depths below. We gotta leave him behind - he's Charon's now. Splish, splash.\r\n\r\nAulk pulls the dinghy up to the shore. Charon can't see us here so far from the docks. She lets out a sigh of relief. We all clamber over the edge, boat swaying as it's relieved of demons and ammunition and weaponry. The cold sand is inviting. While none of us would admit it, we were terrified of the deadly dark of the Styx - and of Charon. We've all heard the songs in the birthing chambers... wait, you haven't? Seriously?\r\n\r\n'Splish, splash, in the Styx we go.\r\nCharon's comin', swim real slow.\r\n\r\nSplish, splash, in the Styx we go.\r\nMama's not watching, she doesn't know.\r\n\r\nSplish, splash, in the Styx we go.\r\nOne by one by one he throws.\r\n\r\nSplish, splash in the Styx we go.\r\nAlways remember that we drown slow.'\r\n\r\nSomethin' like that.":
     "TODO",
   "Another day of work. It's pouring out today, and the rain soaks through my coat. I go to open the door to my apartment, but it's slightly stuck. 'For hell's sake...' I mutter under my breath. A few good shoulder nudges finally pries the door open, and it swings into the side of my hallway.\r\n\r\nMy room is pitch dark, as usual. And dead empty. The fireplace is off - damn. I was hoping my friend would be here tonight. I've never been much of an interior decorator, but this is a bit... dry. I suppose I don't need much to live - I don't need to eat or drink, and I can't sleep. I still bought a bed anyways. It wasn't until after I got it that I remembered I had no eyelids to close, so now I just stare up into the ceiling while - is that mold growing again?\r\n\r\nHow long have I been in this Place? Months? Years? Decades? Every day is the same - I go out and kill undead and go home and stare at that mold. My friend says nothing to me, just more missions. At least the mold gets to grow and change, slowly inching towards - AH, the fireplace? Is it - oh, wait, it's not on. Damn. I thought I saw you.":
-    "TODO"
+    "TODO",
+  
+  "Pick Up Weapon (Standalone): &y&": "TODO",
+  "Sniper Support: &y&": "Снайперська підтримка: &y&",
+  "Quick Restart: &y&": "Швидкий перезапуск: &y&"
 }
