@@ -8,7 +8,7 @@
     "Child 3": "map_tab3",
     "map_tab1": {
       "Name": "Notes",
-      "Description": "IMMOLATION WAS UNSUCCESSFUL. I AM STILL TEMUR. I WILL BECOME A REAPER AND LIVE FOREVER AND FIND WARMTH FROM THE FIRE JUST AS HE HAS"
+      "Description": "IMMOLATION WAS UNSUCCESSFUL. I AM STILL TIMUR. I WILL BECOME A REAPER AND LIVE FOREVER AND FIND WARMTH FROM THE FIRE JUST AS HE HAS"
     },
     "map_tab2": {
       "Name": "Notes",
@@ -17,7 +17,7 @@
     "map_tab3": {
       "Name": "Blueprints",
       "Important": 1,
-      "Description": "Blueprints of... some kind of portal. It seems to use body parts for construction - that explains why the skeletons have been collecting meat. ##There is no knowing what would happen if the undead left this place. I have to tell my employer."
+      "Description": "Blueprints of... some kind of portal. It seems to use body parts for construction - that explains why the skeletons have been collecting meat. ##There is no knowing what would happen if the undead left this Place. I have to tell my employer."
     }
   }
 }

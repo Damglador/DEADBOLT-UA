@@ -147,7 +147,7 @@
     "Child 2": "map_roland",
     "map_intel": {
       "Name": "Intel",
-      "Description": "Rolands' house is filled with many guards - but the only target is Roland. I'll separate him from his men."
+      "Description": "Roland's house is filled with many guards - but the only target is Roland. I'll separate him from his men."
     },
     "map_roland": {
       "Name": "Roland",
@@ -233,7 +233,7 @@
         "Name": "brothels",
         "Description": "The vampires are both the most attractive and sexually active undead, so it comes naturally."
       },
-      "Description": "Amber and Evelynn run &y&brothels&!& downtown. They are high ranking members of the 1000 Year Royals - they must understand the crytpic messages I've been finding in the club safes."
+      "Description": "Amber and Evelyn run &y&brothels&!& downtown. They are high ranking members of the 1000 Year Royals - they must understand the cryptic messages I've been finding in the club safes."
     },
     "map_intel": {
       "Name": "Intel",
@@ -259,12 +259,12 @@
     "Child 2": "map_stela",
     "map_intel": {
       "Name": "Intel",
-      "Description": "Sir Stela's private condominum is heavily guarded, so expect heavy opposition."
+      "Description": "Sir Stela's private condominium is heavily guarded, so expect heavy opposition."
     },
     "map_stela": {
       "Name": "Sir Stela",
       "Important": 1,
-      "Description": "The Stela's are a royal family of vampires. Any activity in the 1000 Year Royals would not go without them knowing."
+      "Description": "The Stelas are a royal family of vampires. Any activity in the 1000 Year Royals would not go without them knowing."
     }
   },
   "map_mission17": {
